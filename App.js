@@ -11,15 +11,11 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-
         <Text> Haz click en la imagen! </Text>
-
         <View style={styles.box}>
           <Image
-
              style={styles.image}
              source={{uri: 'http://www.reactnativeexpress.com/logo.png'}}/>
-
           </View>
 
           <Button
