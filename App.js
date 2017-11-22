@@ -17,14 +17,12 @@ export default class App extends React.Component {
              style={styles.image}
              source={{uri: 'http://www.reactnativeexpress.com/logo.png'}}/>
           </View>
-
           <Button
         onPress={this._onPressButton}
         title="Press Me"
         color="#841584"
       />
       </View>
-
     );
   }
 }
